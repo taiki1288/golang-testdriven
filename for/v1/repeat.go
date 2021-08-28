@@ -1,9 +1,11 @@
 package iteration
 
-func Repeat(chatacter string) string {
+const repeatConst = 5
+
+func Repeat(character string) string {
 	var repeated string 
-	for i := 0; i < 5; i++ {
-		repeated = repeated + chatacter
+	for i := 0; i < repeatConst; i++ {
+		repeated += character
 	}
 	return repeated
 }
