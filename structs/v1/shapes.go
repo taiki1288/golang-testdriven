@@ -15,6 +15,10 @@ type Circle struct {
 	Redius float64
 }
 
+type Shape interface {
+    Area() float64
+}
+
 func (c Circle) Area() float64 {
 	return math.Pi * c.Redius * c.Redius
 }
