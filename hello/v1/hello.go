@@ -1,6 +1,8 @@
-package main 
+package hello
 
-import "fmt"
+import (
+	"fmt"
+)
 
 const englishHelloPrefix = "Hello, "
 
